@@ -1,0 +1,48 @@
+﻿@model IndexVM
+@{
+    ViewBag.Title = "UpdateProduct";
+}
+
+<div class="panel panel-primary">
+    @using (Html.BeginForm("UpdateProduct", "Catalog", FormMethod.Post))
+    {
+        @Html.HiddenFor(x => x.Product.ID)
+        <div>
+            @Html.TextBoxFor(x => x.Product.Model, new { placeholder = "Lütfen Model Giriniz", @class = "form-control" })
+        </div>
+        <br />
+        <div>
+            @Html.TextBoxFor(x => x.Product.Positioning, new { placeholder = "Lütfen Pozisyon Giriniz", @class = "form-control" })
+        </div>
+        <br />
+        <div>
+            @Html.TextBoxFor(x => x.Product.CavoRefNo, new { placeholder = "Lütfen CAVO Ref. No. Giriniz", @class = "form-control" })
+        </div>
+        <br />
+        <div>
+            @Html.TextBoxFor(x => x.Product.ModelYear, new { placeholder = "Lütfen Sene Aralığı Giriniz", @class = "form-control" })
+        </div>
+        <br />
+        <div>
+            @Html.TextBoxFor(x => x.Product.Length, new { placeholder = "Lütfen Uzunluk Giriniz", @class = "form-control" })
+        </div>
+        <br />
+        <div>
+            @Html.TextBoxFor(x => x.Product.OemRefNo, new { placeholder = "Lütfen OEM Ref. No. Giriniz", @class = "form-control" })
+        </div>
+        <br />
+        <div>
+            Marka @Html.DropDownListFor(x => x.Product.BrandID, new SelectList(ViewBag.brandData, "ID", "BrandName"), "Lütfen Marka Seçiniz", new { @class = "form-control" })
+        </div>
+        <br />
+        <div>
+            Tel Türü @Html.DropDownListFor(x => x.Product.CableTypeID, new SelectList(ViewBag.cabletypeData, "ID", "CableTypeName"), "Lütfen Tel Türü Seçiniz", new { @class = "form-control" })
+        </div>
+        <br />
+        <button class="btn btn-outline-warning btn-lg btn-block">Ürün'ü Düzenle</button>
+        <br />
+        <h4 style="color:red">@ViewBag.Message</h4>
+
+    }
+</div>
+

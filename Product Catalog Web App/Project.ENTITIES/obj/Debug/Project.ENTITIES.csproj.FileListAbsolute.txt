@@ -1,0 +1,6 @@
+C:\Users\tahar\Desktop\Taha MVC Proje\TahaMVCProje\Project.ENTITIES\bin\Debug\Project.ENTITIES.dll
+C:\Users\tahar\Desktop\Taha MVC Proje\TahaMVCProje\Project.ENTITIES\bin\Debug\Project.ENTITIES.pdb
+C:\Users\tahar\Desktop\Taha MVC Proje\TahaMVCProje\Project.ENTITIES\obj\Debug\Project.ENTITIES.csproj.AssemblyReference.cache
+C:\Users\tahar\Desktop\Taha MVC Proje\TahaMVCProje\Project.ENTITIES\obj\Debug\Project.ENTITIES.csproj.CoreCompileInputs.cache
+C:\Users\tahar\Desktop\Taha MVC Proje\TahaMVCProje\Project.ENTITIES\obj\Debug\Project.ENTITIES.dll
+C:\Users\tahar\Desktop\Taha MVC Proje\TahaMVCProje\Project.ENTITIES\obj\Debug\Project.ENTITIES.pdb

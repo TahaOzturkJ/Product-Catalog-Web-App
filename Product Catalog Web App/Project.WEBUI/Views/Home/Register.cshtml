@@ -1,0 +1,39 @@
+﻿@model IndexVM
+@{
+    ViewBag.Title = "Register";
+}
+
+@TempData["out"]
+
+<div class="container">
+    @using (Html.BeginForm())
+    {
+        <div>
+            Isim
+        </div>
+        <div>
+            @Html.TextBoxFor(x => x.AppUser.UserName)
+        </div>
+        <div>
+            Sifre
+        </div>
+        <div>
+            @Html.PasswordFor(x => x.AppUser.Password)
+        </div>
+        <div>
+            Email
+        </div>
+        <div>
+            @Html.TextBoxFor(x=>x.AppUser.Email)
+        </div>
+        <br />
+        <h4 style="color:red">@ViewBag.Message</h4>
+        <br />
+        <div>
+            <button class="btn btn-primary">
+                Register
+            </button>
+        </div>
+    }
+</div>
+

@@ -1,0 +1,16 @@
+﻿@model IndexVM
+@{
+    ViewBag.Title = "ImportFromExcel";
+}
+
+@using (Html.BeginForm("ImportFromExcel", "Catalog", FormMethod.Post, new { enctype = "multipart/form-data" })) 
+{ 
+    @Html.Raw(ViewBag.Error)
+    <div>Dosya Seçiniz</div>
+    <br />
+    <input type="file" name="excelfile" />
+    <br />
+    <br />
+    <input type="submit" value="Import" />
+}
+

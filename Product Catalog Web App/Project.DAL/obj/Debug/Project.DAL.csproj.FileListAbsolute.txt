@@ -1,0 +1,17 @@
+C:\Users\tahar\Desktop\Taha MVC Proje\TahaMVCProje\Project.DAL\bin\Debug\Project.DAL.dll.config
+C:\Users\tahar\Desktop\Taha MVC Proje\TahaMVCProje\Project.DAL\bin\Debug\Project.DAL.dll
+C:\Users\tahar\Desktop\Taha MVC Proje\TahaMVCProje\Project.DAL\bin\Debug\Project.DAL.pdb
+C:\Users\tahar\Desktop\Taha MVC Proje\TahaMVCProje\Project.DAL\bin\Debug\EntityFramework.dll
+C:\Users\tahar\Desktop\Taha MVC Proje\TahaMVCProje\Project.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tahar\Desktop\Taha MVC Proje\TahaMVCProje\Project.DAL\bin\Debug\Project.ENTITIES.dll
+C:\Users\tahar\Desktop\Taha MVC Proje\TahaMVCProje\Project.DAL\bin\Debug\Project.MAP.dll
+C:\Users\tahar\Desktop\Taha MVC Proje\TahaMVCProje\Project.DAL\bin\Debug\Project.ENTITIES.pdb
+C:\Users\tahar\Desktop\Taha MVC Proje\TahaMVCProje\Project.DAL\bin\Debug\Project.MAP.pdb
+C:\Users\tahar\Desktop\Taha MVC Proje\TahaMVCProje\Project.DAL\bin\Debug\Project.MAP.dll.config
+C:\Users\tahar\Desktop\Taha MVC Proje\TahaMVCProje\Project.DAL\bin\Debug\EntityFramework.xml
+C:\Users\tahar\Desktop\Taha MVC Proje\TahaMVCProje\Project.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\tahar\Desktop\Taha MVC Proje\TahaMVCProje\Project.DAL\obj\Debug\Project.DAL.csproj.AssemblyReference.cache
+C:\Users\tahar\Desktop\Taha MVC Proje\TahaMVCProje\Project.DAL\obj\Debug\Project.DAL.csproj.CoreCompileInputs.cache
+C:\Users\tahar\Desktop\Taha MVC Proje\TahaMVCProje\Project.DAL\obj\Debug\Project.DAL.csproj.CopyComplete
+C:\Users\tahar\Desktop\Taha MVC Proje\TahaMVCProje\Project.DAL\obj\Debug\Project.DAL.dll
+C:\Users\tahar\Desktop\Taha MVC Proje\TahaMVCProje\Project.DAL\obj\Debug\Project.DAL.pdb

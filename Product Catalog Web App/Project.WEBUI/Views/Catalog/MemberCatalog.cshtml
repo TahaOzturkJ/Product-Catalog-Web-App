@@ -1,0 +1,71 @@
+﻿@model IndexVM
+@{
+    ViewBag.Title = "MemberCatalog";
+
+}
+
+
+@using (Html.BeginForm(null, null, FormMethod.Post))
+{
+
+
+    <div class="container">
+
+        Marka @Html.DropDownListFor(x=>x.Brand.ID, new SelectList(ViewBag.brandData, "ID", "BrandName"), "TÜMÜ", new { @class = "form-control" })
+        <br />
+        Tel Türü @Html.DropDownListFor(x=>x.CableType.ID, new SelectList(ViewBag.cabletypeData, "ID", "CableTypeName"), "TÜMÜ", new { @class = "form-control" })
+        <br />
+        <div>
+            Model
+            <input type="text" name="model" id="model" class="form-control" />
+        </div>
+        <br />
+        <div>
+            Cavo Ref. No
+            <input type="text" name="cavoRefNo" id="cavoRefNo" class="form-control" />
+        </div>
+        <br />
+        <div>
+            OEM Ref. No
+            <input type="text" name="oemRefNo" id="oemRefNo" class="form-control" />
+        </div>
+        <br />
+        <input type="reset" value="Temizle" class="btn btn-outline-primary btn-lg btn-block" />
+        <br />
+        <br />
+        <input type="submit" value="Ara" class="btn btn-outline-success btn-lg btn-block" />
+        <br />
+        <br />
+        <hr />
+        <br />
+        <br />
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Model</th>
+                    <th>Pozisyon</th>
+                    <th>Cavo Ref. No</th>
+                    <th>Sene</th>
+                    <th>Uzunluk</th>
+                    <th>OEM Ref. No</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Product item in Model.Products)
+                {
+                    <tr>
+                        <td>@item.Model</td>
+                        <td>@item.Positioning</td>
+                        <td>@item.CavoRefNo</td>
+                        <td>@item.ModelYear</td>
+                        <td>@item.Length</td>
+                        <td>@item.OemRefNo</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+}
+
+
